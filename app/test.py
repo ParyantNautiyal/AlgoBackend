@@ -4,9 +4,9 @@ from datetime import datetime
 
 def generate_access_token():
     # Kite Connect API credentials
-    api_key = "009u7xstbslxsuxd"
-    api_secret = "x5093s6jiybch29fw4dgydnhcwvnai89"
-    request_token = "HOXIHJNX0NfIbSqPjw4rOcVJwdswPFOC"  # You'll need to get this from the Kite login URL
+    api_key = ""
+    api_secret = ""
+    request_token = ""
     while True:
         # Initialize Kite Connect
         kite = KiteConnect(api_key=api_key)
